@@ -548,8 +548,8 @@ img {
   position: relative;
 }
 .loading_overlay .loader_logo .logo {
-  width: 40px;
-  height: 40px;
+  width: 700px;
+  height: 500px;
   -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
   -moz-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
   -o-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
@@ -656,6 +656,22 @@ img {
   -ms-box-shadow: inset 60px 0px 0px 0px #000 !important;
   box-shadow: inset 60px 0px 0px 0px #000 !important;
 }
+
+/* US Map Styling */
+
+#myChart {
+  height: 100%;
+  width: 100%;
+  min-height: 450px;
+}
+.zc-ref {
+  display: none;
+}
+
+
+
+/* Media Queries */
+
 @media (max-width: 767px) {
   .black_left {
     -webkit-box-shadow: inset 0px 0px 0px 0px #000 !important;
@@ -3165,7 +3181,7 @@ header .navbar .navbar-brand {
 header .navbar .navbar-brand .logo {
   vertical-align: bottom;
   margin-right: 0.5rem;
-  width: 27px;
+  width: 92px;
 }
 header .navbar .navbar-collapse {
   margin-top: 0.4rem;
@@ -5194,8 +5210,18 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   height: 393px;
   z-index: 1;
   bottom: 25%;
-  left: 15%;
+  left: 11%;
 }
+
+.banner_app_three .mockup_ap_right .img_top {
+  position: absolute;
+  width: 540px;
+  height: 405px;
+  z-index: 1;
+  bottom: 25%;
+  left: 63%;
+}
+
 @media (max-width: 991px) {
   .banner_app_three .mockup_ap .img_top {
     left: 0;
@@ -7864,12 +7890,12 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   position: absolute;
   width: 570px;
   top: 18%;
-  right: -5%;
+  right: 7%;
 }
 @media (max-width: 991px) {
   .fitures_Appfitness .features_bb .Image_fitness img {
     top: -2%;
-    right: -45%;
+    right: -20%;
   }
 }
 @media (max-width: 767px) {

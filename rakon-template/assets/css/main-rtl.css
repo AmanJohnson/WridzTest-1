@@ -7755,26 +7755,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   position: relative;
   padding: 30px;
 }
-.features_app_fitness .body_features .moc_app img {
-  width: 100%;
-  -webkit-box-shadow: -30px 60px 40px -18px rgba(11, 34, 56, 0.07) !important;
-  -moz-box-shadow: -30px 60px 40px -18px rgba(11, 34, 56, 0.07) !important;
-  -o-box-shadow: -30px 60px 40px -18px rgba(11, 34, 56, 0.07) !important;
-  -ms-box-shadow: -30px 60px 40px -18px rgba(11, 34, 56, 0.07) !important;
-  box-shadow: -30px 60px 40px -18px rgba(11, 34, 56, 0.07) !important;
-  border-radius: 46px;
-}
-.features_app_fitness .body_features .moc_app::before {
-  content: "";
-  position: absolute;
-  height: 280px;
-  width: 100%;
-  background-color: #ffffff;
-  border-radius: 40px;
-  left: 0;
-  bottom: -20px;
-  z-index: -1;
-}
+
 .features_app_fitness .body_features .nav-pills .nav-link {
   border-radius: 12px;
   padding: 35px;
@@ -21831,13 +21812,13 @@ software_web
   padding-right: inherit;
 }
 .fitures_Appfitness .features_bb .Image_fitness img {
-  left: -5%;
+  left: 7%;
   right: inherit;
   transform: scale(-1, 1);
 }
 @media (max-width: 991px) {
   .fitures_Appfitness .features_bb .Image_fitness img {
-    left: -45%;
+    left: -25%;
   }
 }
 
